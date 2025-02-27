@@ -1,0 +1,62 @@
+body {
+    background: url('background.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: rgba(17, 86, 126, 0.6); /* Más transparente */
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: rgb(251, 248, 245);
+    margin-bottom: 15px;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: rgb(244, 248, 244);
+    padding: 10px;
+    border-radius: 20px;
+    color: rgb(6, 0, 0);
+    font-weight: bold;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.links a i {
+    margin-right: 8px;
+}
+
+/* Efecto Hover */
+.links a:hover {
+    background: rgb(219, 131, 30);
+    color: white;
+}
